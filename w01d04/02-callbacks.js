@@ -6,12 +6,7 @@ const sayHello = function (name, callback) {
 
 const runMyFunc = function (callback) {
   // console.log(callback.toString());
-  callback('elise');
-  console.log('hello');
-
-  if (iShouldCallFunc) {
-    sayHello()
-  }
+  callback('elise'); // equivalent to sayHello('elise')
 };
 
 runMyFunc(sayHello);
