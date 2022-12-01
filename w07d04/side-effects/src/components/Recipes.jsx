@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {useEffect, useState} from 'react';
 
-const ChefAndy = () => {
+const Recipes = () => {
   const [ingredients, setIngredients] = useState([]);
   const [recipes, setRecipes] = useState([]);
 
@@ -31,11 +31,11 @@ const ChefAndy = () => {
 
   return (
     <div>
-      <h2>This is the ChefAndy component</h2>
+      <h2>This is the Recipes component</h2>
       { mappedRecipes }
       <h2>Num ingredients: { ingredients.length }</h2>
     </div>
   );
 };
 
-export default ChefAndy;
+export default Recipes;

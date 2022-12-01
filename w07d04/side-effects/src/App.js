@@ -1,6 +1,6 @@
 import './App.css';
 // import DocumentTitle from './components/DocumentTitle';
-import ChefAndy from './components/ChefAndy';
+import Recipes from './components/Recipes';
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <h2>Side effects</h2>
 
       {/* <DocumentTitle /> */}
-      <ChefAndy />
+      <Recipes />
     </div>
   );
 };
