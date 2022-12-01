@@ -49,7 +49,7 @@ const MyComponent = (props) => {
 
   useEffect(() => {
     // retrieve user information from an API and update local state with the response
-    axios(`/users/${props.userId}`)
+    axios.get(`/users/${props.userId}`)
       .then(response => setUser(response.data));
   });
 
