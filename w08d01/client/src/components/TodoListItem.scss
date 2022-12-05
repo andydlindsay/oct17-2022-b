@@ -1,0 +1,12 @@
+$primary: pink;
+$secondary: seagreen;
+
+.task {
+  border: 2px dotted $primary;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.task-title {
+  color: $secondary;
+}
