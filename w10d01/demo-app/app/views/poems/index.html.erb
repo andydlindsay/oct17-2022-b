@@ -1,0 +1,11 @@
+<h1>All the poems for <%= @character.name %></h1>
+
+<%= link_to 'All the characters', characters_path %>
+
+<% @poems.each do |poem| %>
+  <div class="poem">
+    <h2>Location: <%= poem.location %></h2>
+    <h2>Poem: <%= poem.poem %></h2>
+    <h2>Character: <%= poem.character.name %></h2>
+  </div>
+<% end %>

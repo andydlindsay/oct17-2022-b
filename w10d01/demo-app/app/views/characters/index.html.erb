@@ -1,0 +1,13 @@
+<h1>Here's all the characters from the db</h1>
+
+<!-- <a href="/poems">Poems</a> -->
+<!-- <%= link_to 'Poems', '/poems' %> -->
+
+
+<% @characters.each do |character| %>
+  <div class="character">
+    <h2>Name: <%= character.name %></h2>
+    <h2>Race: <%= character.race %></h2>
+    <%= link_to 'Poems', character_poems_path(character.id) %>
+  </div>
+<% end %>
