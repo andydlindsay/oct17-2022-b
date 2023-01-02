@@ -7,3 +7,4 @@
 * [W08D01 - Bootcamp Review](/w08d01)
 * [W08D04 - Class-based Components](/w08d04)
 * [W08D05 - Intro to Ruby](/w08d05)
+* [W10D01 - Rails Review](/w10d01)
