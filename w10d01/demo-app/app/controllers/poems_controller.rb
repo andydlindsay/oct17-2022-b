@@ -4,5 +4,10 @@ class PoemsController < ApplicationController
 
     @character = Character.find character_id
     @poems = @character.poems
+
+    render json: {
+      poems: @poems,
+      character: @character
+    }
   end
 end

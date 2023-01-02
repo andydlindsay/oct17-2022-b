@@ -5,7 +5,7 @@
 - [x] MVC Review
 - [x] Quickly build simple Rails app
 - [x] Nested Resources
-- [ ] `scaffold` command
+- [x] `scaffold` command
 
 ### Rails week convo
 * some things were out of order (instructions specific for M1)
